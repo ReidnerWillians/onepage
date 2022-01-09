@@ -3,3 +3,19 @@ Aprenda HTML5, CSS3 e SEO de forma simples, prática e objetiva desenvolvendo pa
 
 ## Links Indicados
 ### Planejamento
+[cetic](https://www.cetic.br/)
+
+### Wireframe
+[draw](https://app.diagrams.net/)
+
+### Tipografia
+[google fonts](https://fonts.google.com/)
+
+### Imagens
+[pixabay](https://pixabay.com/pt/)
+
+[icon-icons](https://icon-icons.com/pt/)
+
+[iconfinder](https://www.iconfinder.com/)
+
+[optimizila](https://imagecompressor.com/pt/)
