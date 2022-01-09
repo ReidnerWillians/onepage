@@ -21,10 +21,7 @@ Aprenda HTML5, CSS3 e SEO de forma simples, prática e objetiva desenvolvendo pa
 [optimizila](https://imagecompressor.com/pt/)
 
 ### Validacao
-<<<<<<< Updated upstream
-=======
 
->>>>>>> Stashed changes
 [html](https://validator.w3.org/)
 
 [css](https://css-validator.org/)
