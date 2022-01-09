@@ -23,4 +23,4 @@ Aprenda HTML5, CSS3 e SEO de forma simples, prática e objetiva desenvolvendo pa
 ###Validação
 [html](https://validator.w3.org/)
 
-[css](https://css-validator.org)
+[css](https://css-validator.org/)
