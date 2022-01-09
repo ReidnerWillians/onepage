@@ -20,7 +20,7 @@ Aprenda HTML5, CSS3 e SEO de forma simples, prática e objetiva desenvolvendo pa
 
 [optimizila](https://imagecompressor.com/pt/)
 
-###Validação
+### Validação
 [html](https://validator.w3.org/)
 
 [css](https://css-validator.org/)
