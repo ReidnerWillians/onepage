@@ -3,6 +3,27 @@
     @autor: REIDNER WILLIANS
 */
 
-body{
-    background-color: blue;
+/*SMARTFONE PORTRAIT*/
+
+/*SMARTFONE LANDSCAPE*/
+@media (min-width: 576px){
+    body{
+        background-color: chartreuse;
+    }
+}
+/*TABLET PORTRAIT*/
+@media (min-width: 768px){
+    body{
+        background-color: cyan;
+    }
+}
+/*TABLET LANDSCAPE*/
+@media (min-width: 992px){
+    body{background-color: darkgreen;
+    }
+}
+/*DESKTOP E NOTEBOOK*/
+@media (min-width: 1200px){
+    body{background-color: darkkhaki;
+    }
 }
