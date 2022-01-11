@@ -24,6 +24,13 @@ body{
     margin: 0 auto;
 }
 
+/* TOPO DO SITE */
+#topo{
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+}
+
 /*SMARTFONE PORTRAIT*/
 
 /*SMARTFONE LANDSCAPE*/
