@@ -20,13 +20,13 @@ body {
 /* LAYOUT */
 .Container {
   margin: 0 auto;
-  background-color: #dcdcdc;
+  
 }
 
 .flex {
   display: flex;
   justify-content: space-between;
-  background-color: #a9a9a9;
+  
 }
 
 /* TOPO DO SITE */
@@ -38,16 +38,48 @@ body {
 
 /*SMARTFONE PORTRAIT*/
 
+/* CABEÇALHO */
+header{
+  height: 60px;
+}
+
 #logo img{
   width: 128px;
   height: 128px;
 }
-
-/* CABEÇALHO */
-header{
-  height: 60px;
-  
+#check{
+  display: none;
 }
+
+label{
+  font-size: 3em;
+  padding-right: 15px;
+}
+nav ul {
+  list-style: none;
+  background-color: #343538;
+  height: 100vh;
+  position: fixed;
+  top: 60px;
+  right: -100%;
+  width: 100%;
+  transition: all 0.5s;
+}
+
+#check:checked ~ ul{
+  right: 0;
+}
+
+nav ul li{
+  padding: 20px;
+  border-bottom: 1px solid #a9a9a9;
+}
+
+nav ul li a{
+  text-decoration: none;
+  color: #fff;
+}
+
 /*SMARTFONE LANDSCAPE*/
 @media (min-width: 576px) {
   /* LAYOUT */
@@ -57,9 +89,7 @@ header{
 }
 /*TABLET PORTRAIT*/
 @media (min-width: 768px) {
-  body {
-    background-color: cyan;
-  }
+ 
   /* LAYOUT */
   .Container {
     max-width: 720px;
@@ -68,9 +98,7 @@ header{
 
 /*TABLET LANDSCAPE*/
 @media (min-width: 992px) {
-  body {
-    background-color: darkgreen;
-  }
+
   /* LAYOUT */
   .Container {
     max-width: 960px;
@@ -79,9 +107,7 @@ header{
 
 /*DESKTOP E NOTEBOOK*/
 @media (min-width: 1200px) {
-  body {
-    background-color: darkkhaki;
-  }
+
   /* LAYOUT */
   .Container {
     max-width: 1140px;
@@ -96,6 +122,26 @@ header{
     width: 189px;
     height: 189px;
     margin-top: 30px;
-   
+  }
+
+  label {
+    display: none;
+  }
+
+  nav ul {
+    position: static;
+    height: auto;
+    background-color: transparent;
+    margin-top: 50px;
+  }
+  nav ul li{
+    float: left;
+    border: 0;
+  }
+  nav ul li a{
+    color: #343538;
+  }
+  nav ul li a:hover{
+    color: #c00000;
   }
 }
