@@ -3,82 +3,97 @@
     @autor: REIDNER WILLIANS
 */
 /* IMPORTAÇÃO (GOOGLE FONTS) */
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap");
 
 /* CSS RESET */
-*{
-    margin: 0;
-    border: 0;
-    padding: 0;
+* {
+  margin: 0;
+  border: 0;
+  padding: 0;
 }
 
-body{
-    font-family: 'Open Sans', sans-serif;
-    font-size: 1em;
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1em;
 }
 
 /* LAYOUT */
-.Container{
-    margin: 0 auto;
+.Container {
+  margin: 0 auto;
+  background-color: #dcdcdc;
 }
 
-.flex{
-    display: flex;
-    justify-content: space-between;
+.flex {
+  display: flex;
+  justify-content: space-between;
+  background-color: #a9a9a9;
 }
 
 /* TOPO DO SITE */
-#topo{
-    position: fixed;
-    right: 10px;
-    bottom: 10px;
+#topo {
+  position: fixed;
+  right: 10px;
+  bottom: 10px;
 }
 
 /*SMARTFONE PORTRAIT*/
 
-/* CABEÇALHO */
-
-header{
-    height: 60px;
-    
+#logo img{
+  width: 128px;
+  height: 128px;
 }
 
+/* CABEÇALHO */
+header{
+  height: 60px;
+}
 /*SMARTFONE LANDSCAPE*/
-@media (min-width: 576px){
-    
-    /* LAYOUT */
-    .Container{
-        max-width: 540px;
-    }
+@media (min-width: 576px) {
+  /* LAYOUT */
+  .Container {
+    max-width: 540px;
+  }
 }
 /*TABLET PORTRAIT*/
-@media (min-width: 768px){
-    body{
-        background-color: cyan;
-    }
-       /* LAYOUT */
-       .Container{
-        max-width: 720px;
-    }
+@media (min-width: 768px) {
+  body {
+    background-color: cyan;
+  }
+  /* LAYOUT */
+  .Container {
+    max-width: 720px;
+  }
 }
 
 /*TABLET LANDSCAPE*/
-@media (min-width: 992px){
-    body{background-color: darkgreen;
-    }
-       /* LAYOUT */
-       .Container{
-        max-width: 960px;
-    }
+@media (min-width: 992px) {
+  body {
+    background-color: darkgreen;
+  }
+  /* LAYOUT */
+  .Container {
+    max-width: 960px;
+  }
 }
 
 /*DESKTOP E NOTEBOOK*/
-@media (min-width: 1200px){
-    body{background-color: darkkhaki;
-    }
-       /* LAYOUT */
-       .Container{
-        max-width: 1140px;
-    }
+@media (min-width: 1200px) {
+  body {
+    background-color: darkkhaki;
+  }
+  /* LAYOUT */
+  .Container {
+    max-width: 1140px;
+  }
+
+  /* CABEÇALHO */
+  header{
+    height: 120px;
+  }
+
+  #logo img{
+    width: 189px;
+    height: 189px;
+    margin-top: 30px;
+  }
 }
