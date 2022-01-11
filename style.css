@@ -2,16 +2,17 @@
     FOLHA DE ESTILO DO SITE ONE PAGE
     @autor: REIDNER WILLIANS
 */
-
+/* IMPORTAÇÃO (GOOGLE FONTS) */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
 /* CSS RESET */
+
 *{
     margin: 0;
     border: 0;
     padding: 0;
 }
 
-/* IMPORTAÇÃO (GOOGLE FONTS) */
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
 
 body{
     font-family: 'Open Sans', sans-serif;
