@@ -1,0 +1,18 @@
+TAGS SEMÂNTICAS(As principais)
+
+<header> Cabeçalho </header>
+<nav>menu</nav>
+<main>conteudo principal</main>
+<section>agrupamento de conteudos relacionados</section>
+<article>artigos, comentários, widget>/article>
+<aside>side bar</aside>
+<footer>rodapé</footer>
+
+HEADING TAGS (TÍTULOS)
+
+<h1>Subtítulo</h1>   "deve ser usado somente um por página"
+<h2>subtítulo nivel 2</h2>
+-
+-
+-
+<h6>subtítulo nivel 6</h6>
