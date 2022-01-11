@@ -3,6 +3,26 @@
     @autor: REIDNER WILLIANS
 */
 
+/* CSS RESET */
+*{
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+/* IMPORTAÇÃO (GOOGLE FONTS) */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1em;
+}
+
+/* LAYOUT */
+.Container{
+    margin: 0 auto;
+}
+
 /*SMARTFONE PORTRAIT*/
 
 /*SMARTFONE LANDSCAPE*/
@@ -10,20 +30,38 @@
     body{
         background-color: chartreuse;
     }
+    /* LAYOUT */
+    .Container{
+        max-width: 540px;
+    }
 }
 /*TABLET PORTRAIT*/
 @media (min-width: 768px){
     body{
         background-color: cyan;
     }
+       /* LAYOUT */
+       .Container{
+        max-width: 720px;
+    }
 }
+
 /*TABLET LANDSCAPE*/
 @media (min-width: 992px){
     body{background-color: darkgreen;
     }
+       /* LAYOUT */
+       .Container{
+        max-width: 960px;
+    }
 }
+
 /*DESKTOP E NOTEBOOK*/
 @media (min-width: 1200px){
     body{background-color: darkkhaki;
+    }
+       /* LAYOUT */
+       .Container{
+        max-width: 1140px;
     }
 }
