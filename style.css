@@ -4,15 +4,14 @@
 */
 /* IMPORTAÇÃO (GOOGLE FONTS) */
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
-/* CSS RESET */
 
+
+/* CSS RESET */
 *{
     margin: 0;
     border: 0;
     padding: 0;
 }
-
-
 
 body{
     font-family: 'Open Sans', sans-serif;
@@ -27,7 +26,6 @@ body{
 .flex{
     display: flex;
     justify-content: space-between;
-    background-color: #c42929;
 }
 
 /* TOPO DO SITE */
@@ -48,9 +46,7 @@ header{
 
 /*SMARTFONE LANDSCAPE*/
 @media (min-width: 576px){
-    body{
-        background-color: chartreuse;
-    }
+    
     /* LAYOUT */
     .Container{
         max-width: 540px;
