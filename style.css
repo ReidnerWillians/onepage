@@ -1,11 +1,13 @@
-/*
-    FOLHA DE ESTILO DO SITE ONE PAGE
-    @autor: REIDNER WILLIANS
-*/
-/* IMPORTAÇÃO (GOOGLE FONTS) */
+                /*
+                    FOLHA DE ESTILO DO SITE ONE PAGE
+                    @autor: REIDNER WILLIANS
+                */
+
+                /* IMPORTAÇÃO (GOOGLE FONTS) */
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap");
 
-/* CSS RESET */
+                /* CSS RESET */
+
 * {
   margin: 0;
   border: 0;
@@ -17,7 +19,8 @@ body {
   font-size: 1em;
 }
 
-/* LAYOUT */
+ /* LAYOUT */
+
 .Container {
   margin: 0 auto;
   
@@ -26,6 +29,11 @@ body {
 .flex {
   display: flex;
   justify-content: space-between;
+}
+
+.flex2{
+  display: flex;
+  align-items: center;
 }
 
 .botao {
@@ -39,16 +47,18 @@ body {
   border-radius: 25px;
 }
 
-/* TOPO DO SITE */
+  /* TOPO DO SITE */
+
 #topo {
   position: fixed;
   right: 10px;
   bottom: 10px;
 }
 
-/*SMARTFONE PORTRAIT*/
+                          /*SMARTFONE PORTRAIT*/
 
-/* CABEÇALHO */
+  /* CABEÇALHO */
+
 header{
   height: 60px;
 }
@@ -90,7 +100,7 @@ nav ul li a{
   color: #fff;
 }
 
-/* DESTAQUE */
+  /* DESTAQUE */
 
 main{
   height: 75vh;
@@ -112,9 +122,48 @@ main h2{
   margin: 20px 0px 50px 0px;
 }
 
-/*SMARTFONE LANDSCAPE*/
+  /* SOBRE */
+
+#sobre{
+   padding: 50px 0px;
+   background: url(img/background.png);
+   background-size: cover;
+
+}
+
+#destaqueSobre{
+  display: inline;
+}
+
+#textoSobre{
+  color: #fff;
+  padding: 0px 10px;
+}
+
+#textoSobre h2{
+  margin-bottom: 10px;
+
+}
+
+.topicoSobre {
+  margin-top: 20px;
+}
+
+.topicoSobre img{
+  margin-right: 10px;
+}
+
+.flex2 p{
+  color: #fff;
+}
+
+
+                        /*SMARTFONE LANDSCAPE*/
+
 @media (min-width: 576px) {
+ 
   /* LAYOUT */
+
   .Container {
     max-width: 540px;
   }
@@ -125,15 +174,17 @@ main h2{
   main h2{
     font-size: 1rem;
   }
-  main h1, h1{
+  main h1, main h2{
     text-shadow: #000 0.5em 0.5em 0.5em;
   }
   }
   
-/*TABLET PORTRAIT*/
+                        /*TABLET PORTRAIT*/
+
 @media (min-width: 768px) {
  
   /* LAYOUT */
+
   .Container {
     max-width: 720px;
   }
@@ -145,10 +196,12 @@ main h2{
   }
 }
 
-/*TABLET LANDSCAPE*/
+                        /*TABLET LANDSCAPE*/
+
 @media (min-width: 992px) {
 
   /* LAYOUT */
+
   .Container {
     max-width: 960px;
   }
@@ -161,15 +214,18 @@ main h2{
   
 }
 
-/*DESKTOP E NOTEBOOK*/
+                        /*DESKTOP E NOTEBOOK*/
+
 @media (min-width: 1200px) {
 
   /* LAYOUT */
+
   .Container {
     max-width: 1140px;
   }
 
   /* CABEÇALHO */
+
   header{
     height: 120px;
   }
@@ -210,42 +266,3 @@ main h2{
   }
 }
 
-#sobre{
-  height: 15em;
-  text-align: center;
-  font-size: 3rem;
-  background-color: darkcyan;
-  color: #4b1818;
-}
-
-#onepage{
-  height: 10em;
-  text-align: center;
-  font-size: 3rem;
-  background-color: rgb(50, 90, 90);
-  color: #4b1818;
-}
-
-#wireframe{
-  height: 10em;
-  text-align: center;
-  font-size: 3rem;
-  background-color: #4b1818;
-  color: #fff;
-}
-
-#conteudo{
-  height: 10em;
-  text-align: center;
-  font-size: 3rem;
-  background-color: #dad2d2;
-  color: rgb(194, 11, 11);
-}
-
-#contato{
-  height: 10em;
-  text-align: center;
-  font-size: 3rem;
-  background-color: #264128;
-  color: rgb(194, 11, 11);
-}
