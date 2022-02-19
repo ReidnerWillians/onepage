@@ -38,6 +38,11 @@ body {
 
 }
 
+.flex3{
+  display: flex;
+  flex-direction: column;
+}
+
 .botao {
   text-decoration: none;
   color: #fff;
@@ -105,6 +110,28 @@ nav ul li a{
   color: #fff;
 }
 
+   /* One Page */
+
+#onepage{
+  padding: 50px 10px;
+}
+
+#onepage h2{
+  margin-bottom: 10px;
+  color: #8a1e1e;
+}
+
+#onepage p{
+  margin-bottom: 25px;
+  color: #8a1e1e;
+}
+
+#video iframe{
+  width: 340px;
+  height: 191px;
+  border: 0;
+}
+
   /* DESTAQUE */
 
 main{
@@ -146,11 +173,12 @@ main h2{
   color: rgb(29, 94, 43);
   padding: 0px 10px;
   font-weight: 700;
+  
 }
 
 #textoSobre h2{
   margin-bottom: 10px;
-
+  
 }
 
 .topicoSobre {
@@ -164,6 +192,7 @@ main h2{
 .flex2 p{
   color: rgb(29, 94, 43);
   font-weight: 700;
+
 }
 
 
@@ -180,6 +209,11 @@ main h2{
   /* DESTAQUE */
   main h1, main h2{
     text-shadow: #000 0.5em 0.5em 0.5em;
+  }
+
+  #video iframe{
+    width: 560px;
+    height: 315px;
   }
 }
   
@@ -202,6 +236,11 @@ main h2{
   main h2{
     font-size: 2rem;
   }
+
+  #video iframe{
+    width: 560px;
+    height: 315px;
+  } 
 }
 
                         /*TABLET LANDSCAPE*/
@@ -217,6 +256,10 @@ main h2{
   /* DESTAQUE */
   main{
     height: 70vh;
+  }
+  #video iframe{
+    width: 560px;
+    height: 315px;
   }
 }
 
@@ -274,6 +317,15 @@ main h2{
   #destaqueSobre img{
     border-radius: 20%;
     margin-left: 30px;
+  }
+  #video iframe{
+    width: 560px;
+    height: 315px;
+  }
+  .flex3{
+    flex-direction: row;
+    align-items: center;
+    
   }
 }
 
