@@ -143,8 +143,9 @@ main h2{
 }
 
 #textoSobre{
-  color: #fff;
+  color: rgb(29, 94, 43);
   padding: 0px 10px;
+  font-weight: 700;
 }
 
 #textoSobre h2{
@@ -161,7 +162,8 @@ main h2{
 }
 
 .flex2 p{
-  color: #fff;
+  color: rgb(29, 94, 43);
+  font-weight: 700;
 }
 
 
