@@ -192,8 +192,40 @@ main h2{
 .flex2 p{
   color: #f059dc;
   font-weight: 700;
+}
+
+                        /* WIREFRAME */
+
+#wireframe{
+  padding: 50px;
+  background: url(img/elipse.jpg);
+  background-size: cover;
+  background-position: center;
+}                        
+
+#textowire{
+  color: #fff;
+  padding: 0px 10px;
+  font-weight: 700;
+}
+
+#textowire h2{
+  margin-bottom: 10px;
 
 }
+
+#textowire p{
+  margin-bottom: 40px;
+}
+
+#textowire span{
+  display: none;
+}
+
+#qrcode{
+  display: none;
+}
+
 
 
                         /*SMARTFONE LANDSCAPE*/
@@ -325,7 +357,28 @@ main h2{
   .flex3{
     flex-direction: row;
     align-items: center;
+    font-size: 16px;
     
   }
+                        /* WIREFRAME */
+
+  #wireframe{
+    background-attachment: fixed;
+  }                      
+  #qrcode{
+    display:inline;
+  }
+
+  #qrcode img{
+    width: 225px;
+    height: 225px;
+  }
+
+  #wireframe span{
+    display: inline;
+    color: #c00000;
+  }
+
+
 }
 
