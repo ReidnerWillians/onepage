@@ -46,7 +46,7 @@ body {
 .flex4{
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-evenly;
+  justify-content: space-between;
 }
 
 .botao {
@@ -72,8 +72,8 @@ body {
 
 .Card{
   margin-top: 25px;
-  width: 370px;
-  height: 520px;
+  width: 300px;
+  height: 500px;
   background: #e8e8e8;
   border: 1px solid #a1a1a1;
   border-radius: 20px;
@@ -82,6 +82,7 @@ body {
 }
 .Card img{
   border-radius: 20px 25px 0px 0px;
+  margin-top: 20px;
 }
 
 .Card h3{
@@ -97,7 +98,7 @@ body {
 }
 
 .Card a{
-  padding: 10px 100px;
+  padding: 10px 80px;
   border: 0;
 }
                           /*SMARTFONE PORTRAIT*/
@@ -267,7 +268,7 @@ main h2{
 /* CONTEÚDO */
 
 #conteudo{
-  padding: 50px 0px;
+  padding: 20px 0px;
 
 }
 
@@ -357,7 +358,7 @@ main h2{
 
                         /*DESKTOP E NOTEBOOK*/
 
-@media (min-width: 1200px) {
+@media (min-width: 1280px) {
 
   /* LAYOUT */
 
