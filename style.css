@@ -43,6 +43,12 @@ body {
   flex-direction: column;
 }
 
+.flex4{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
 .botao {
   text-decoration: none;
   color: #fff;
@@ -62,6 +68,38 @@ body {
   bottom: 10px;
 }
 
+/*CARTÃO*/
+
+.Card{
+  margin-top: 25px;
+  width: 370px;
+  height: 520px;
+  background: #e8e8e8;
+  border: 1px solid #a1a1a1;
+  border-radius: 20px;
+  text-align: center;
+
+}
+.Card img{
+  border-radius: 20px 25px 0px 0px;
+}
+
+.Card h3{
+  margin-top: 15px;
+
+}
+
+.Card p{
+  text-align: left;
+  color: #434343;
+  padding: 10px 30px 50px 30px;
+
+}
+
+.Card a{
+  padding: 10px 100px;
+  border: 0;
+}
                           /*SMARTFONE PORTRAIT*/
 
   /* CABEÇALHO */
@@ -226,6 +264,28 @@ main h2{
   display: none;
 }
 
+/* CONTEÚDO */
+
+#conteudo{
+  padding: 50px 0px;
+
+}
+
+#conteudo h2{
+  margin-bottom: 25px;
+  text-align: center;
+}
+
+#todos{
+  margin-top: 50px;
+  text-align: center;
+}
+
+#todos a{
+  text-decoration: none;
+  color: #000;
+  font-size: 1.25em;
+}
 
 
                         /*SMARTFONE LANDSCAPE*/
@@ -360,6 +420,8 @@ main h2{
     font-size: 16px;
     
   }
+
+
                         /* WIREFRAME */
 
   #wireframe{
