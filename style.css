@@ -46,7 +46,7 @@ body {
 .flex4{
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
 
 .botao {
@@ -72,7 +72,7 @@ body {
 
 .Card{
   margin-top: 25px;
-  width: 300px;
+  width: 333px;
   height: 500px;
   background: #e8e8e8;
   border: 1px solid #a1a1a1;
