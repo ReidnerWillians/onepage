@@ -49,6 +49,17 @@ body {
   justify-content: space-evenly;
 }
 
+.flex5 {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.flex6 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
 .botao {
   text-decoration: none;
   color: #fff;
@@ -288,8 +299,48 @@ main h2{
   font-size: 1.25em;
 }
 
+/*RODAPÉ*/
 
-                        /*SMARTFONE LANDSCAPE*/
+address{
+  padding: 35px 10px 50px 10px;
+  background: url(img/background2.png);
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+}
+
+address a {
+  text-decoration: none;
+  color: #fff;
+}
+
+address img {
+    padding-top: 15px;
+}
+
+#iconelocal {
+  display: none;
+}
+
+#dados {
+  margin: 30px 0px 15px 0px;
+}
+
+#googleMaps{
+  display: none;
+}
+
+footer {
+  padding: 50px;
+  background-color: #343538;
+  color: #fff;
+  text-align: center;
+}
+
+#social {
+  margin-bottom: 25px;
+}
+/*SMARTFONE LANDSCAPE*/
 
 @media (min-width: 576px) {
  
@@ -303,14 +354,28 @@ main h2{
   main h1, main h2{
     text-shadow: #000 0.5em 0.5em 0.5em;
   }
+  /* One Page*/
 
   #video iframe{
     width: 560px;
     height: 315px;
   }
+
+/* Rodapé*/
+
+  .flex5 {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  #social {
+   margin: 0;
+  }
+
 }
-  
-                        /*TABLET PORTRAIT*/
+
+  /*TABLET PORTRAIT*/
 
 @media (min-width: 768px) {
  
@@ -418,8 +483,23 @@ main h2{
   .flex3{
     flex-direction: row;
     align-items: center;
-    font-size: 16px;
-    
+    font-size: 16px; 
+  }
+
+  /*Rodapé*/
+
+  #iconelocal {
+    display: inline;
+  }
+  #iconeMapa {
+    display: none;
+  }
+  #googleMaps {
+    display: inline;
+  }
+
+  .flex6 {
+    flex-direction: row-reverse;
   }
 
 
